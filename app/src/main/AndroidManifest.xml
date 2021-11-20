@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parqueadero">
         <activity
+            android:name=".Celdas"
+            android:exported="false" />
+        <activity
+            android:name=".Usuario"
+            android:exported="false" />
+        <activity
             android:name=".Salida"
             android:exported="false" />
         <activity

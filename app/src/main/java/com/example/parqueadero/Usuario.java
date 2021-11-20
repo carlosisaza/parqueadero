@@ -7,15 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Registrar extends AppCompatActivity {
+public class Usuario extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registrar);
+        setContentView(R.layout.activity_usuario);
 
-        Button guardarR = findViewById(R.id.guardarR);
-        guardarR.setOnClickListener(new View.OnClickListener() {
+        Button guardar = findViewById(R.id.guardar);
+        guardar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainActivity.class);
@@ -23,8 +23,8 @@ public class Registrar extends AppCompatActivity {
             }
         });
 
-        Button menuR = findViewById(R.id.menuR);
-        menuR.setOnClickListener(new View.OnClickListener() {
+        Button menu = findViewById(R.id.menu);
+        menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), MainActivity.class);
@@ -32,8 +32,8 @@ public class Registrar extends AppCompatActivity {
             }
         });
 
-        Button salirR = findViewById(R.id.salirR);
-        salirR.setOnClickListener(new View.OnClickListener() {
+        Button salir = findViewById(R.id.salir);
+        salir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (v.getContext(), Login.class);

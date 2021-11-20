@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_celdas.xml" value="0.259375" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_entrada.xml" value="0.259375" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_login.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_main.xml" value="0.259375" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_registrar.xml" value="0.259375" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_registrar.xml" value="0.264" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_salida.xml" value="0.259375" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_splash.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/Parqueadero/app/src/main/res/layout/activity_usuario.xml" value="0.259375" />
       </map>
     </option>
   </component>
