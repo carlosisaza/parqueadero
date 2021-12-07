@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parqueadero">
         <activity
+            android:name=".Eliminar"
+            android:exported="false" />
+        <activity
+            android:name=".Modificar"
+            android:exported="false" />
+        <activity
+            android:name=".Exito"
+            android:exported="false" />
+        <activity
+            android:name=".Pago"
+            android:exported="false" />
+        <activity
             android:name=".Celdas"
             android:exported="false" />
         <activity
